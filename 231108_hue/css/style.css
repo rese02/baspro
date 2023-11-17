@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+#header {
+  position: relative;
+  text-align: center;
+}
+
+#monthImage {
+  width: 100vw; 
+  height: 40vh; 
+  object-fit: cover; 
+}
