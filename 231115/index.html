@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>function</title>
+    <title>Spar Gutscheine</title>
 </head>
 <body>
     
-    <div id="gutschein-container">
-        <img src="" alt="">
+    <label for="weeksInput" class="titel">Anzahl der Wochen:</label>
+    <input type="number" id="weeksInput" min="1" value="1">
+    <button onclick="generateCoupons()">GENERIEREN</button>
+
+    <div id="couponsContainer">
     </div>
+
+
     <script src="js/script.js"></script>
 </body>
 </html>
