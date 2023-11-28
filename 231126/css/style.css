@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+}
+.for-schleife,
+.while-schleife,
+.do-while-schleife {
+  margin-bottom: 20px;
+}
+.red {
+  color: red
+}
